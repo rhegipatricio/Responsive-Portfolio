@@ -331,17 +331,15 @@ nav a {
 /* portfolio page */
 
 .work {
-  position: relative;
-  float: left;
-  width: 274px;
-  margin: 20px 0 25px;
-  overflow: auto;
+  width: 45%
 }
 
 .work img {
   width: 100%;
-  border: 0 none;
-  opacity: 0.8;
+}
+
+.work:nth-child(odd) {
+  float: right;
 }
 
 .auth-image {
@@ -355,9 +353,9 @@ nav a {
 .main-section {
   float: left;
   width: 100%;
-  max-width: 650px;
-  padding: 30px;
-  margin: 0 0 40px;
+  max-width: 728px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 }
