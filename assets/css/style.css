@@ -104,7 +104,6 @@ footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
-  color: #fff;
   color: #ccc;
   text-align: center;
   background: #666;
@@ -261,7 +260,7 @@ nav a {
 .sidebar {
   float: left;
   width: 100%;
-  max-width: 728px;
+  max-width: 270px;
   margin-left: 20px;
 }
 
@@ -271,16 +270,32 @@ nav a {
 
 .main-section {
   float: left;
-  width: 100%;
-  max-width: 728px;
+  max-width: 50%;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
 .auth-image {
   height: auto;
   width: 100%;
-  max-width: 50%;
-  margin: 0 20 40px;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.work {
+  width: 100%;
+}
+
+.work img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 40px;
+}
+
+.auth-image {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 0 20px;
 }
 
 }
