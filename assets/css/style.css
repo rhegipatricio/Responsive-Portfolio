@@ -241,6 +241,8 @@ input[type=submit] {
 
 @media screen and (max-width: 980px) {
 
+
+
 #masthead {
   margin: 0px;
   position: static;
@@ -255,13 +257,14 @@ nav {
 
 nav a {
   display: table-cell;
+  padding-right: 40px;
+  text-align: right;
 }
 
 .sidebar {
   float: left;
   width: 100%;
-  max-width: 270px;
-  margin-left: 20px;
+  margin-right: auto;
 }
 
 #main-container {
@@ -271,8 +274,8 @@ nav a {
 .main-section {
   float: left;
   max-width: 50%;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 40px;
+  margin-left: 90px;
 }
 
 .auth-image {
